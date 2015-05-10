@@ -13,6 +13,7 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.AccelerateInterpolator;
 import android.widget.ImageView;
 
+//git test
 
 public class MainActivity extends ActionBarActivity {
     ImageView imageView;
@@ -85,7 +86,6 @@ public class MainActivity extends ActionBarActivity {
                 if (motionEvent.getAction() == MotionEvent.ACTION_UP){
                     int cx = (int) motionEvent.getX();
                 int cy = (int) motionEvent.getY();
-
                 int finalRadius = Math.max(imageView.getWidth(), imageView.getHeight());
 
                 Animator anim = ViewAnimationUtils.createCircularReveal(imageView, cx, cy, 0, 1920);
