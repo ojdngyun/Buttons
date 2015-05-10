@@ -10,7 +10,7 @@
         android:layout_gravity="center"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        card_view:cardCornerRadius="4dp"
+        card_view:cardCornerRadius="2dp"
         android:layout_margin="20dp"
         android:elevation="5dp">
 
