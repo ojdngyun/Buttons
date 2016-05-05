@@ -47,7 +47,7 @@
         android:scaleType="centerCrop"
         tools:visibility="visible"
         />
-//asdf
+
     </android.support.v7.widget.CardView>
 
 </RelativeLayout>
