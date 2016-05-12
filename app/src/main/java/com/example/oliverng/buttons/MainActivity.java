@@ -37,7 +37,7 @@ public class MainActivity extends ActionBarActivity {
 //        anim.setInterpolator(new AccelerateInterpolator());
 //        imageView2.setVisibility(View.VISIBLE);
 //        anim.start();
-
+//	  random comment!
 
         imageView.setOnTouchListener(new View.OnTouchListener() {
             @Override
